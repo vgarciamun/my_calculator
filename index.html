@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculadora</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Calculadora de Victor G.M.</h1>
+		Numero:
+		<input type="text" id="n1">
+		<p>
+			<button onclick="cube()"> x^3 </button>
+		</p>
+		<script type="text/javascript">
+			function cube() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value,3);
+			}
+		</script>
+	</body>
+</html>
+
